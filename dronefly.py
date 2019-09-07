@@ -6,7 +6,7 @@ import time
 from flyt_python import api
 
 #creating instance of drone navigation from api
-drone = api.navigation(timeout=10000)
+drone = api.navigation(timeout=1000000)
 
 # waiting to initialize
 time.sleep(5)
